@@ -98,9 +98,9 @@ int main(void)
 	int32_t b = 4;
 	int32_t c = 0;
 	
-	uint64_t x = 2;
-	uint64_t y = 4;
-	uint64_t z = 0;
+	int32_t x = 3;
+	int32_t y = 5;
+	int32_t z = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -111,11 +111,19 @@ int main(void)
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
-		add(&x, &y, &z);
-		MUL(&a, &b, &c);
-		SUM(&a, &b, &c);
-		MIN(&a, &b, &c);
-		DIV(&a, &b, &c);
+
+		MUL_4(&a, &b, &c);
+		SUM_4(&a, &b, &c);
+		MIN_4(&a, &b, &c);
+		DIV_4(&a, &b, &c);
+		
+		
+		//MUL_9(&a, &b, &c);
+		SUM_9(&x, &y, &z);
+		MIN_9(&x, &y, &z);
+		//DIV_9(&a, &b, &c);
+		
+		MAC_4(&a, &b, &c);
   }
   /* USER CODE END 3 */
 
