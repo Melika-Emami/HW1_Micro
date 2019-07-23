@@ -1,2 +1,2 @@
 # HW1_Micro
-Definig some function in Assembly Language
+Defining some function in Assembly Language
